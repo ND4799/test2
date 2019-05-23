@@ -40,11 +40,13 @@ git 常用操作
 >* git commit -m "edit xxx.html"
 >* git push origin master
 
+
 提交操作
 >* git status  \\查看修改情况
 >* git add -u  \\提交修改到暂存区
 >* git commit -m "信息"   \\提交到本地仓库
 >* git push  \\提交到远程仓库
+
 
 撤销操作
 >* git checkout -- file   \\删除or修改，没有add到暂存区
