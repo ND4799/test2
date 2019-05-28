@@ -58,9 +58,10 @@ git 常用操作
 >* git checkout <name>  \\切换到分支hehe
 >* git push origin <name>  \\提交分支到远程仓库
 >* git branch  \\查看分支
+>* git branch -a \\查看所有分支
 >* git branch -r \\查看远程分支
->* git branch -D <name> \\删除分支<name>
+>* git branch -d <name> \\删除本地分支<name>
 >* git merge <name> \\合并某分支<name>到当前分支
->* git branch push origin --delete <name> \\删除远程分支
+>* git push origin --delete <name> \\删除远程分支
 
 ```
