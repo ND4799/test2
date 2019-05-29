@@ -50,7 +50,7 @@ git 常用操作
 
 撤销操作
 >* git checkout -- file   \\删除or修改，没有add到暂存区
->* git reset --hard HEAD   \\删除or修改，add到暂存区（也可以用下面的两个命令操作）
+>* git reset --hard HEAD   \\删除or修改，add到暂存区（也可以用下面的两个命令操作），head是指针
 >* git reset HEAD  file & git checkout -- file
 
 分支操作
