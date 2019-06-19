@@ -25,9 +25,9 @@
 git 常用操作
 
 配置
->* git config --global user.name "rexzhang4799"
->* git config --global user.email "57111563@.qq.com"
->* git remote add origin https://github.com/rexzhang4799/git_test.git
+>* git config --global user.name "username"
+>* git config --global user.email "email@.com"
+>* git remote add origin url
 
 
 删除一个文件操作
