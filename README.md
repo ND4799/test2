@@ -64,5 +64,5 @@ git 常用操作 xixi
 >* git merge <name> \\合并某分支<name>到当前分支
 >* git push origin --delete <name> \\删除远程分支
 
-记住用户名00
+记住用户名0055
 >* git config credential.helper store \\记住用户名不用每次操作都输入，在本地建立文本，提交的时候会输入一次，以后就不会再输入
