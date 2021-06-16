@@ -22,7 +22,7 @@
          		佛祖保佑       永无BUG
 
 
-git 常用操作 xixi
+git 常用操作 xixi616
 
 配置
 >* git config --global user.name "username"
