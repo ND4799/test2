@@ -37,3 +37,8 @@
 >* git branch -d <name> //删除本地分支<name>
 >* git merge <name> //合并某分支<name>到当前分支
 >* git push origin --delete <name> //删除远程分支
+
+
+
+
+如果你没有看到.git目录，那是因为这个目录默认是隐藏的，用ls -ah命令就可以看见。
