@@ -7,8 +7,13 @@
 
 
 或在命令行上创建一个新的存储库
+github上的顺序是init add comm，然后branch改名会报错，因为这个时候的提交是假提交，没有名字和email，所以在init之后要马上配置名字和email，然后在add comm branch -M
 
 >* git init     //把当前文件夹初始化成git仓库，执行命令后当前文件夹会有一个隐藏的.git文件夹，代表成功
+>* git config --global user.name "username"  //全局设置用户名
+>* git config user.name "username"  //局部设置用户名
+>* git config --global user.email "email@.com" //全局设置邮箱
+>* git config user.email "email@.com" //局部设置邮箱 
 >* git add README.md  //往暂存区增加readme
 >* git commit -m "first commit"  //往本地版本库提交
 >* git branch -M main  //github更改了主干由master——》main，这个是改名字
@@ -42,3 +47,4 @@
 
 
 如果你没有看到.git目录，那是因为这个目录默认是隐藏的，用ls -ah命令就可以看见。
+Command+Shift+. 

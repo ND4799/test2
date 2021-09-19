@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     /*  const fun1 = {
+        name:'小红22',
+        say:function () {
+            console.log(this)
+        }
+      }
+      const fun2 = fun1.say;
+      const name = '小蓝2';
+
+      fun1.say();
+      fun2();
+      console.log(fun1.say==fun2) */
+      /* 请根据BMI公式（体重除以身高的平方）
+      低于18.5：过轻
+      18.5-25：正常
+      25-28：过重
+      28-32：肥胖
+      高于32：严重肥胖 */
+      var height = parseFloat(prompt('请输入身高(m):'));
+      var weight = parseFloat(prompt('请输入体重(kg):')); 
+      var bmi = weight/height**2;
+      console.log(bmi)
+      if(bmi>25){
+        console.log('肥胖')
+      }
+
+    </script>
+</body>
+</html>
