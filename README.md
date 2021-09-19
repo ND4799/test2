@@ -7,7 +7,7 @@
 
 
 或在命令行上创建一个新的存储库
-github上的顺序是init add comm，然后branch改名会报错，因为这个时候的提交是假提交，没有名字和email，所以在init之后要马上配置名字和email，然后在add comm branch -M
+>* github上的顺序是init add comm，然后branch改名会报错，因为这个时候的提交是假提交，没有名字和email，所以在init之后要马上配置名字和email，然后在add comm branch -M
 
 >* git init     //把当前文件夹初始化成git仓库，执行命令后当前文件夹会有一个隐藏的.git文件夹，代表成功
 >* git config --global user.name "username"  //全局设置用户名
