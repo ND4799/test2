@@ -1,5 +1,5 @@
 
-配置1
+配置20240306
 >* git config --global user.name "username"  //全局设置用户名
 >* git config user.name "username"  //局部设置用户名
 >* git config --global user.email "email@.com" //全局设置邮箱
